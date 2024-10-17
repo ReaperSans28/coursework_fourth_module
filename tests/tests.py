@@ -13,12 +13,7 @@ def hh_data() -> Any:
 
 @pytest.fixture
 def vacancies() -> Any:
-    return Vacancy(
-        "Таролог в Футбольный клуб «Сокол»",
-        "https://api.hh.ru/areas/88",
-        300000,
-        "Ну да",
-    )
+    return Vacancy("Ну да")
 
 
 def test_head_hunter_api(hh_data) -> None:

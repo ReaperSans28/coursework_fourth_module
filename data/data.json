@@ -1,0 +1,202 @@
+[
+    {
+        "name": "Маркировщица/Маркировщик в аптеку",
+        "url": "https://api.hh.ru/vacancies/91444530?host=hh.ru",
+        "salary": 48000
+    },
+    {
+        "name": "Семейный водитель",
+        "url": "https://api.hh.ru/vacancies/108636552?host=hh.ru",
+        "salary": 120000
+    },
+    {
+        "name": "Руководитель отдела продаж",
+        "url": "https://api.hh.ru/vacancies/108593976?host=hh.ru",
+        "salary": 250000
+    },
+    {
+        "name": "Менеджер по туризму",
+        "url": "https://api.hh.ru/vacancies/106084114?host=hh.ru",
+        "salary": 0
+    },
+    {
+        "name": "Специалист по работе с клиентами",
+        "url": "https://api.hh.ru/vacancies/107528045?host=hh.ru",
+        "salary": 60000
+    },
+    {
+        "name": "Менеджер по работе с клиентами",
+        "url": "https://api.hh.ru/vacancies/107606494?host=hh.ru",
+        "salary": 106920
+    },
+    {
+        "name": "Администратор рецепции фитнес клуба",
+        "url": "https://api.hh.ru/vacancies/107575220?host=hh.ru",
+        "salary": 0
+    },
+    {
+        "name": "Менеджер фитнес-студии на звонках",
+        "url": "https://api.hh.ru/vacancies/106557462?host=hh.ru",
+        "salary": 60000
+    },
+    {
+        "name": "Специалист по кадровому делопроизводству",
+        "url": "https://api.hh.ru/vacancies/108652075?host=hh.ru",
+        "salary": 58000
+    },
+    {
+        "name": "HR менеджер (гибрид)",
+        "url": "https://api.hh.ru/vacancies/107722441?host=hh.ru",
+        "salary": 0
+    },
+    {
+        "name": "Product/Project Manager for FinTech (B2B)",
+        "url": "https://api.hh.ru/vacancies/108372221?host=hh.ru",
+        "salary": 200000
+    },
+    {
+        "name": "Эксперт-инженер в отдел энергоэффективности",
+        "url": "https://api.hh.ru/vacancies/108726602?host=hh.ru",
+        "salary": 250000
+    },
+    {
+        "name": "Администратор рецепции World class",
+        "url": "https://api.hh.ru/vacancies/107512947?host=hh.ru",
+        "salary": 40000
+    },
+    {
+        "name": "Менеджер по сопровождению клиентов",
+        "url": "https://api.hh.ru/vacancies/106101808?host=hh.ru",
+        "salary": 0
+    },
+    {
+        "name": "Администратор рецепции фитнес клуба (М. Москва-Сити)",
+        "url": "https://api.hh.ru/vacancies/106737024?host=hh.ru",
+        "salary": 0
+    },
+    {
+        "name": "Junior / Младший специалист по контекстной рекламе",
+        "url": "https://api.hh.ru/vacancies/107450475?host=hh.ru",
+        "salary": 30000
+    },
+    {
+        "name": "Водитель легкового автомобиля",
+        "url": "https://api.hh.ru/vacancies/108145321?host=hh.ru",
+        "salary": 70000
+    },
+    {
+        "name": "Фасовщица/Фасовщик",
+        "url": "https://api.hh.ru/vacancies/108414675?host=hh.ru",
+        "salary": 48000
+    },
+    {
+        "name": "Вечерний администратор в Центре иностранных языков",
+        "url": "https://api.hh.ru/vacancies/107637172?host=hh.ru",
+        "salary": 25000
+    },
+    {
+        "name": "Copywriter (Russian-English)",
+        "url": "https://api.hh.ru/vacancies/107683993?host=hh.ru",
+        "salary": 80000
+    },
+    {
+        "name": "Диспетчер чатов (в Яндекс)",
+        "url": "https://api.hh.ru/vacancies/108144503?host=hh.ru",
+        "salary": 30000
+    },
+    {
+        "name": "Диспетчер чатов",
+        "url": "https://api.hh.ru/vacancies/105724725?host=hh.ru",
+        "salary": 40000
+    },
+    {
+        "name": "Диспетчер чатов",
+        "url": "https://api.hh.ru/vacancies/108474320?host=hh.ru",
+        "salary": 40000
+    },
+    {
+        "name": "Диспетчер чатов (в Яндекс)",
+        "url": "https://api.hh.ru/vacancies/108150636?host=hh.ru",
+        "salary": 30000
+    },
+    {
+        "name": "Диспетчер чатов (в Яндекс)",
+        "url": "https://api.hh.ru/vacancies/108151334?host=hh.ru",
+        "salary": 30000
+    },
+    {
+        "name": "Диспетчер чатов (в Яндекс)",
+        "url": "https://api.hh.ru/vacancies/108151491?host=hh.ru",
+        "salary": 30000
+    },
+    {
+        "name": "Диспетчер чатов (в Яндекс)",
+        "url": "https://api.hh.ru/vacancies/108150649?host=hh.ru",
+        "salary": 30000
+    },
+    {
+        "name": "Диспетчер чатов (в Яндекс)",
+        "url": "https://api.hh.ru/vacancies/108151301?host=hh.ru",
+        "salary": 30000
+    },
+    {
+        "name": "Диспетчер чатов (в Яндекс)",
+        "url": "https://api.hh.ru/vacancies/108150663?host=hh.ru",
+        "salary": 30000
+    },
+    {
+        "name": "Диспетчер чатов (в Яндекс)",
+        "url": "https://api.hh.ru/vacancies/108150671?host=hh.ru",
+        "salary": 30000
+    },
+    {
+        "name": "Диспетчер чатов (в Яндекс)",
+        "url": "https://api.hh.ru/vacancies/108151310?host=hh.ru",
+        "salary": 30000
+    },
+    {
+        "name": "Диспетчер чатов (в Яндекс)",
+        "url": "https://api.hh.ru/vacancies/108150613?host=hh.ru",
+        "salary": 30000
+    },
+    {
+        "name": "Диспетчер чатов (в Яндекс)",
+        "url": "https://api.hh.ru/vacancies/108151383?host=hh.ru",
+        "salary": 30000
+    },
+    {
+        "name": "Диспетчер чатов (в Яндекс)",
+        "url": "https://api.hh.ru/vacancies/108151293?host=hh.ru",
+        "salary": 30000
+    },
+    {
+        "name": "Диспетчер чатов (в Яндекс)",
+        "url": "https://api.hh.ru/vacancies/108151351?host=hh.ru",
+        "salary": 30000
+    },
+    {
+        "name": "Диспетчер чатов (в Яндекс)",
+        "url": "https://api.hh.ru/vacancies/108150673?host=hh.ru",
+        "salary": 30000
+    },
+    {
+        "name": "Диспетчер чатов (в Яндекс)",
+        "url": "https://api.hh.ru/vacancies/108151295?host=hh.ru",
+        "salary": 30000
+    },
+    {
+        "name": "Диспетчер чатов (в Яндекс)",
+        "url": "https://api.hh.ru/vacancies/108150364?host=hh.ru",
+        "salary": 30000
+    },
+    {
+        "name": "Диспетчер чатов (в Яндекс)",
+        "url": "https://api.hh.ru/vacancies/108150637?host=hh.ru",
+        "salary": 30000
+    },
+    {
+        "name": "Диспетчер чатов (в Яндекс)",
+        "url": "https://api.hh.ru/vacancies/108151482?host=hh.ru",
+        "salary": 30000
+    }
+]

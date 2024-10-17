@@ -1,63 +1,28 @@
 from src.hhapi import HeadHunterAPI
 from src.vacancy import Vacancy
-
-
-def salary_key(vacancy):
-    return (
-        vacancy.salary
-        if isinstance(vacancy.salary, (int, float)) and vacancy.salary > 0
-        else -1
-    )
+from src.working_with_files import WorkingWithData
 
 
 def user_interaction() -> None:
-    """
-    Функция для вызова всего.
-    """
     hh_api = HeadHunterAPI()
 
     search_query = input("Введите поисковый запрос для вакансий: ")
 
-    vacancies_data = hh_api.get_vacancies({"text": search_query, "area": 1})
-    vacancies = []
+    vacancies_data = hh_api.get_vacancies({"text": search_query})
 
-    for item in vacancies_data:
-        vacancies.append(
-            Vacancy(
-                name=item.get("name"),
-                url=item.get("alternate_url"),
-                salary=item.get("salary", {}).get("from"),
-                description=item.get("snippet", {}).get("requirement", ""),
-            )
-        )
+    vacancy_objects = []
 
-    if not vacancies:
-        print("Вакансии не найдены.")
-        return
+    for vacancy in vacancies_data:
+        vacancy_obj = Vacancy(vacancy)
+        vacancy_objects.append(vacancy_obj.to_dict())
 
-    try:
-        n = int(input("Введите количество вакансий, которые хотите увидеть (N): "))
-    except ValueError:
-        print("Некорректный ввод. Пожалуйста, введите целое число.")
-        return
+    data_handler = WorkingWithData()
 
-    sorted_vacancies = sorted(vacancies, key=salary_key, reverse=True)
+    for vacancy in vacancy_objects:
+        data_handler.add_to_json(vacancy)
 
-    print(f"\nТоп {n} вакансий по зарплате:")
-    for vacancy in sorted_vacancies[:n]:
-        print(vacancy)
-
-    keyword = input("\nВведите ключевое слово для поиска в описании вакансий: ")
-
-    keyword_vacancies = []
-
-    for vacancy in vacancies:
-        if keyword.lower() in vacancy.description.lower():
-            keyword_vacancies.append(vacancy)
-
-    print("\nВакансии с ключевым словом '{}' в описании:".format(keyword))
-    for vacancy in keyword_vacancies:
-        print(vacancy)
+    saved_vacancies = data_handler.read_json()
+    print("Сохраненные вакансии:", saved_vacancies)
 
 
 if __name__ == "__main__":
